@@ -1,0 +1,786 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<map name="js_mindmap" document_type="Blumind" editor_version="1.3.16.0">
+  <!--Create by Blumind, you can download it free from http://www.blumind.org/download-->
+  <info />
+  <layout>LOGIC_RIGHT</layout>
+  <attributes>
+    <item name="editor_show_sidebar">True</item>
+  </attributes>
+  <style>
+    <back_color>Black</back_color>
+    <fore_color>Black</fore_color>
+    <line_color>LightSlateGray</line_color>
+    <border_color>SlateGray</border_color>
+    <node_back_color>LightGray</node_back_color>
+    <node_fore_color>Black</node_fore_color>
+    <select_color>RoyalBlue</select_color>
+    <hover_color>MediumSlateBlue</hover_color>
+    <link_line_color>Green</link_line_color>
+  </style>
+  <nodes>
+    <node text="JavaScript">
+      <style>
+        <back_color>DarkSlateBlue</back_color>
+        <fore_color>Aquamarine</fore_color>
+        <border_color>LimeGreen</border_color>
+        <padding>10</padding>
+        <font font_family="微软雅黑" size="10.5" style="Bold" />
+      </style>
+      <nodes>
+        <node text="课时01&#xD;&#xA;（初始JS魅力01）" folded="True">
+          <style>
+            <back_color>DarkSlateBlue</back_color>
+            <fore_color>White</fore_color>
+            <line_color>#80FFFF</line_color>
+            <border_color>LimeGreen</border_color>
+            <padding>12</padding>
+            <font font_family="微软雅黑" size="9" style="Bold" />
+          </style>
+          <nodes>
+            <node text="什么是JavaScript ">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="网页特效原理 ">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="淘宝、新浪、百度">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="JavaScript就是修改样式">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="编写JS的流程">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="布局：HTML+CSS">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="属性：确定要修改哪些属性">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="事件：确定用户做哪些操作（产品设计）">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="编写JS：在事件中，用JS来修改页面元素的样式">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="第一个JS特效-鼠标提示框">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="分析效果实现原理">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="样式">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>MediumSpringGreen</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                          <nodes>
+                            <node text="div的display">
+                              <style>
+                                <back_color>DarkSlateBlue</back_color>
+                                <fore_color>White</fore_color>
+                                <line_color>#80FFFF</line_color>
+                                <border_color>LimeGreen</border_color>
+                                <shape>3</shape>
+                                <padding>12</padding>
+                                <font font_family="微软雅黑" size="9" style="Bold" />
+                              </style>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node text="事件">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>MediumSpringGreen</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                          <nodes>
+                            <node text="onmouseover、onmouseout">
+                              <style>
+                                <back_color>DarkSlateBlue</back_color>
+                                <fore_color>White</fore_color>
+                                <line_color>#80FFFF</line_color>
+                                <border_color>LimeGreen</border_color>
+                                <shape>3</shape>
+                                <padding>12</padding>
+                                <font font_family="微软雅黑" size="9" style="Bold" />
+                              </style>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node text="动手编写此效果">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>MediumSpringGreen</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node text="特效基础">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="事件驱动">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>MediumSpringGreen</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                          <nodes>
+                            <node text="onmouseover">
+                              <style>
+                                <back_color>DarkSlateBlue</back_color>
+                                <fore_color>White</fore_color>
+                                <line_color>#80FFFF</line_color>
+                                <border_color>LimeGreen</border_color>
+                                <shape>3</shape>
+                                <padding>12</padding>
+                                <font font_family="微软雅黑" size="9" style="Bold" />
+                              </style>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node text="元素属性操作">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>MediumSpringGreen</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                          <nodes>
+                            <node text="obj.style.[...]">
+                              <style>
+                                <back_color>DarkSlateBlue</back_color>
+                                <fore_color>White</fore_color>
+                                <line_color>#80FFFF</line_color>
+                                <border_color>LimeGreen</border_color>
+                                <shape>3</shape>
+                                <padding>12</padding>
+                                <font font_family="微软雅黑" size="9" style="Bold" />
+                              </style>
+                            </node>
+                          </nodes>
+                        </node>
+                        <node text="特效实现原理概括">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>MediumSpringGreen</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                          <nodes>
+                            <node text="响应用户操作，对页面元素（标签）进行某种修改">
+                              <style>
+                                <back_color>DarkSlateBlue</back_color>
+                                <fore_color>White</fore_color>
+                                <line_color>#80FFFF</line_color>
+                                <border_color>LimeGreen</border_color>
+                                <shape>3</shape>
+                                <padding>12</padding>
+                                <font font_family="微软雅黑" size="9" style="Bold" />
+                              </style>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="初识函数">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="制作更复杂的效果（DIV的颜色、大小都变化）">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                </node>
+                <node text="直接在事件内些代码会很乱">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="引入function（）、函数的基本形式">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="把JS从标签里放入到函数里，类似css的class">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="变量的使用---别名">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="定义和调用">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="函数定义">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="函数调用">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="getElementById">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="第一个JS兼容性问题">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>White</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <shape>3</shape>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                </node>
+                <node text="在FF下直接使用ID存在问题">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>White</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <shape>3</shape>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                </node>
+                <node text="网页换肤">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>White</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <shape>3</shape>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                </node>
+              </nodes>
+            </node>
+            <node text="if判断">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+            </node>
+          </nodes>
+        </node>
+        <node text="课时02&#xD;&#xA;（初始JS魅力02）">
+          <style>
+            <back_color>DarkSlateBlue</back_color>
+            <fore_color>White</fore_color>
+            <line_color>#80FFFF</line_color>
+            <border_color>LimeGreen</border_color>
+            <padding>12</padding>
+            <font font_family="微软雅黑" size="9" style="Bold" />
+          </style>
+          <nodes>
+            <node text="函数传参">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="改变背景颜色">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="函数传参：参数就是占位符">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="改变DIV的任意样式">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="操纵属性的第二种方式">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="什么时候用">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                        <node text="字符串和变量">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node text="将属性名作为参数传递">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="style与className">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="元素.style.属性=XXX 是修改行间样式">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="之后再修改className不会有效果">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="提取行间事件">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="提取事件">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="为元素添加事件">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="事件和属性一样，可以用js添加">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                        <node text="Windows.onload的意义">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                        <node text="行为、样式、结构三者分离">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="获取一组元素">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="getElementsByTagName">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="数组的使用">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="循环">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="用while引入循环的概念">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                </node>
+                <node text="for循环">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="例子">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="全选---checked属性">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                        <node text="反选---for循环配合if判断">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+          </nodes>
+        </node>
+      </nodes>
+    </node>
+  </nodes>
+</map>
