@@ -778,6 +778,254 @@
                 </node>
               </nodes>
             </node>
+            <node text="选项卡">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="按钮的实现">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="添加事件">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="先清空所有按钮，再选中当前按钮">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="内容的实现">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="先隐藏所有DIV，再显示&quot;当前&quot;DIV">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
+            <node text="JS简易日志">
+              <style>
+                <back_color>DarkSlateBlue</back_color>
+                <fore_color>White</fore_color>
+                <line_color>#80FFFF</line_color>
+                <border_color>LimeGreen</border_color>
+                <padding>12</padding>
+                <font font_family="微软雅黑" size="9" style="Bold" />
+              </style>
+              <nodes>
+                <node text="程序实现思路">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="类似选项卡，只是下面只有一个div">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                    <node text="innerHtml的使用">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="数组的使用">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="定义">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="arr=[1,2,3]">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node text="使用">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="arr[0]">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+                <node text="字符串链接">
+                  <style>
+                    <back_color>DarkSlateBlue</back_color>
+                    <fore_color>Salmon</fore_color>
+                    <line_color>#80FFFF</line_color>
+                    <border_color>LimeGreen</border_color>
+                    <padding>12</padding>
+                    <font font_family="微软雅黑" size="9" style="Bold" />
+                  </style>
+                  <nodes>
+                    <node text="作用">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="链接两个字符串">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                        </node>
+                      </nodes>
+                    </node>
+                    <node text="问题">
+                      <style>
+                        <back_color>DarkSlateBlue</back_color>
+                        <fore_color>White</fore_color>
+                        <line_color>#80FFFF</line_color>
+                        <border_color>LimeGreen</border_color>
+                        <shape>3</shape>
+                        <padding>12</padding>
+                        <font font_family="微软雅黑" size="9" style="Bold" />
+                      </style>
+                      <nodes>
+                        <node text="链接中的优先级">
+                          <style>
+                            <back_color>DarkSlateBlue</back_color>
+                            <fore_color>White</fore_color>
+                            <line_color>#80FFFF</line_color>
+                            <border_color>LimeGreen</border_color>
+                            <shape>3</shape>
+                            <padding>12</padding>
+                            <font font_family="微软雅黑" size="9" style="Bold" />
+                          </style>
+                          <nodes>
+                            <node text="'abc'+(1+2)+'edf'">
+                              <style>
+                                <back_color>DarkSlateBlue</back_color>
+                                <fore_color>White</fore_color>
+                                <line_color>#80FFFF</line_color>
+                                <border_color>LimeGreen</border_color>
+                                <shape>3</shape>
+                                <padding>12</padding>
+                                <font font_family="微软雅黑" size="9" style="Bold" />
+                              </style>
+                            </node>
+                          </nodes>
+                        </node>
+                      </nodes>
+                    </node>
+                  </nodes>
+                </node>
+              </nodes>
+            </node>
           </nodes>
         </node>
       </nodes>
