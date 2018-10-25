@@ -466,7 +466,7 @@
             </node>
           </nodes>
         </node>
-        <node text="课时02&#xD;&#xA;（初始JS魅力02）">
+        <node text="课时02&#xD;&#xA;（初始JS魅力02）" folded="True">
           <style>
             <back_color>DarkSlateBlue</back_color>
             <fore_color>White</fore_color>
@@ -1027,6 +1027,16 @@
               </nodes>
             </node>
           </nodes>
+        </node>
+        <node text="JavaScript基础 ">
+          <style>
+            <back_color>DarkSlateBlue</back_color>
+            <fore_color>White</fore_color>
+            <line_color>#80FFFF</line_color>
+            <border_color>LimeGreen</border_color>
+            <padding>12</padding>
+            <font font_family="微软雅黑" size="9" style="Bold" />
+          </style>
         </node>
       </nodes>
     </node>
